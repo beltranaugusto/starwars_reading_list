@@ -1,3 +1,105 @@
 /* 
     General Styles
 */
+
+html {
+  scroll-snap-type: y mandatory;
+}
+
+ul {
+  list-style-type: none ;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.more a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.more a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-icon {
+  width: 85px;
+  height: 85px;
+}
+
+div.scroll-x {
+    overflow: auto;
+    white-space: nowrap;
+  }
+
+        .scroll-x::-webkit-scrollbar {
+            width: 8px;
+            height: 12px;
+        }
+        
+        .scroll-x::-webkit-scrollbar-track {
+            background-color: #e4e4e400;
+        }
+        
+        .scroll-x::-webkit-scrollbar-thumb {
+            background-color: grey;
+            border-radius: 4px;
+            
+        }
+  
+  div.scroll-x div {
+    display: inline-block;
+    
+  }
+
+  div.scroll-x div img {
+    height: 242px;
+    width: 232px;
+  }
+
+.detail {
+  width: 600px;
+}
+
+  .detail img {
+    width: 260px;
+    height: 270px;
+  }
+
+.container {
+  padding: 0px;
+}
+
+.last-hr {
+  margin-top: 340px;
+}
+
+.trash {
+  opacity: 0;
+  width: auto;
+}
+
+.trash:hover {
+  background-color:  rgba(252, 133, 133, 0.425);
+}
+
+.trash-parent:hover .trash {
+  opacity: 100;
+}
+
+.scroll-x {
+  scroll-snap-type: x mandatory;
+}
+
+.scroll-card {
+  scroll-snap-align: start;
+}
+
+.page-scroll {
+  scroll-snap-align: start;
+}
